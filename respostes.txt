@@ -3,3 +3,4 @@ e. mv si.txt /home/alumno/examen/si/
 f. tail -n +2 /home/alumno/Escritorio/Alumnos.txt | awk '{print $1""$2"-"$5}'´
 g. grep -o -i González /home/alumno/Escritorio/Alumnos.txt | wc -l
 j. sed 's/Vicente/Pepe/' /home/alumno/Escritorio/Alumnos.txt 
+k. grep [2][0][1][0-9] /home/alumno/Escritorio/Alumnos.txt
